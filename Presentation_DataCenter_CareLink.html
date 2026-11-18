@@ -452,7 +452,7 @@ svg text { font-family: var(--body); }
       <span class="tag">Zone extérieure</span>
       <div class="z" style="flex:1"><b>Groupes électrogènes</b><span>3 × 150 kVA, 2 suffisent</span></div>
       <div class="z" style="flex:1"><b>Fioul</b><span>2 cuves, ~3 jours</span></div>
-      <div class="z" style="flex:1"><b>Groupes froids</b><span>3 × 60 kW, free cooling</span></div>
+      <div class="z" style="flex:1"><b>Groupes froids</b><span>3 × 60 kW + free cooling</span></div>
       <div class="z" style="flex:1"><b>Poste de garde</b><span>à l’unique portail</span></div>
     </div>
   </div>
@@ -522,8 +522,8 @@ svg text { font-family: var(--body); }
     <!-- extérieur -->
     <rect x="0" y="20" width="300" height="430" rx="8" fill="none" stroke="#9AAEC0" stroke-dasharray="8 6"/>
     <text x="20" y="48" fill="#9AAEC0" font-family="IBM Plex Mono, monospace" font-size="14">EXTÉRIEUR · JUSQU’À 45 °C</text>
-    <g class="node ng"><rect x="24" y="70" width="252" height="96" rx="6" style="stroke:#9AAEC0; stroke-dasharray:none"/><text class="t" x="44" y="108">Groupe froid 1</text><text class="s" x="44" y="134">60 kW · free cooling</text></g>
-    <g class="node ng"><rect x="24" y="190" width="252" height="96" rx="6" style="stroke:#9AAEC0; stroke-dasharray:none"/><text class="t" x="44" y="228">Groupe froid 2</text><text class="s" x="44" y="254">60 kW · free cooling</text></g>
+    <g class="node ng"><rect x="24" y="70" width="252" height="96" rx="6" style="stroke:#9AAEC0; stroke-dasharray:none"/><text class="t" x="44" y="108">Groupe froid 1 (Air-Eau)</text><text class="s" x="44" y="134">60 kW + free cooling en hiver</text></g>
+    <g class="node ng"><rect x="24" y="190" width="252" height="96" rx="6" style="stroke:#9AAEC0; stroke-dasharray:none"/><text class="t" x="44" y="228">Groupe froid 2 (Air-Eau)</text><text class="s" x="44" y="254">60 kW + free cooling en hiver</text></g>
     <g class="node ng"><rect x="24" y="310" width="252" height="96" rx="6"/><text class="t" x="44" y="348">Groupe froid 3</text><text class="s" x="44" y="374">secours (N+1)</text></g>
     <!-- boucles -->
     <path class="wire a" d="M276 110 H300 M276 230 H300 M276 350 H300 M300 350 V50 H1334 M732 50 V120 M1076 50 V120 M1334 50 V120"/>
